@@ -2,10 +2,10 @@
 
 Number=$1
 
-if [$Number -gt 50]; then
+if [ $Number -gt 50 ]; then
 echo "Given number $Number greater than 50"
 elif [$Number -lt 50]; then
-echo  "Given number $Number less than 50"
+echo  "Given numbe $Number less than 50"
 elif [$Number -eq 50]; then
 echo  "Given number $Number equal to 50"
 else
