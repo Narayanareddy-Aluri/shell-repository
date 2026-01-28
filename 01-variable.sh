@@ -1,4 +1,5 @@
 #!/bin/bash
-
-echo "Suresh ::Hi Ramesh'
-echo "Ramesh  :: hello Suresh"
+person1=suresh
+person2=Ramesh
+echo "$person1 ::Hi $person2"
+echo "$person2  :: hello $person1"
