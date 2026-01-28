@@ -1,12 +1,10 @@
 #!/bin/bash
 
 number=15
-reminder=15%2
-reminder=1
+remainder=$((number % 2))
 
-if(reminder == 0){
-	print("even number")
-}
-else{
-	print("odd number")
-}
+if [ $remainder -eq 0 ]; then
+    echo "even number"
+else
+    echo "odd number"
+fi
